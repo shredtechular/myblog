@@ -33,7 +33,7 @@ This is part two of a three-part series about how I resurrected [ingredient-phra
 
 {% include image.html file="cover.jpg" alt="Beavers stabilizing shaky house" max_width="800px" img_link=true %}
 
-# Running it in continuous integration asdf asdf
+# Running it in continuous integration
 
 At the end of part one, I created a Docker image that allowed the library to run on any system. The next step was to run the library in continuous integration.
 
@@ -53,7 +53,7 @@ I pushed my commit to Github, created a [pull request](https://github.com/mtlync
 
 {% include image.html file="first-travis-build.png" class="img-border" alt="Screenshot of first successful build on Travis CI" fig_caption="First successful build on Travis" max_width="792px" %}
 
-# Adding an end-to-end test asdf asdf
+# Adding an end-to-end test
 
 Travis was building my Docker image, but the build wasn't meaningful yet. It only built the library's dependencies &mdash; it didn't exercise any of its behavior. I wanted a build that could alert me when I broke the library's functionality. To do that, I needed an end-to-end test.
 
