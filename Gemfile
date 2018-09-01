@@ -10,5 +10,5 @@ gem 'jekyll-responsive-image', '1.2.0'
 
 group :jekyll_plugins do
   gem 'jekyll-admin'
-#  gem 'jekyll-frontmatter-test', '0.0.1', :path => '_plugins'
+  gem 'jekyll-frontmatter-test', '0.0.1', :path => '_plugins'
 end

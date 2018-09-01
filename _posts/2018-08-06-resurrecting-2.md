@@ -53,7 +53,7 @@ I pushed my commit to Github, created a [pull request](https://github.com/mtlync
 
 {% include image.html file="first-travis-build.png" class="img-border" alt="Screenshot of first successful build on Travis CI" fig_caption="First successful build on Travis" max_width="792px" %}
 
-# Adding an end-to-end test asdf
+# Adding an end-to-end test
 
 Travis was building my Docker image, but the build wasn't meaningful yet. It only built the library's dependencies &mdash; it didn't exercise any of its behavior. I wanted a build that could alert me when I broke the library's functionality. To do that, I needed an end-to-end test.
 
