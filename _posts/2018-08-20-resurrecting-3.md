@@ -31,7 +31,7 @@ This is the final post in a three-part series about how I resurrected [ingredien
 
 {% include image.html file="cover.jpg" alt="Hermit crab being pulled from shell" max_width="800px" img_link=true %}
 
-# Where are we? asdf
+# Where are we? 
 
 It was time to start refactoring.
 As a refresher, at the end of [part two](/resurrecting-2/), the library:
